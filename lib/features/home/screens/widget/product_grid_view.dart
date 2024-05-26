@@ -19,14 +19,6 @@ class ProductGridView extends ConsumerStatefulWidget {
 }
 
 class _ProductGridViewState extends ConsumerState<ProductGridView> {
-  // CategoryList selectedCategory = categoryList.first;
-
-  // void onCategorySelected(CategoryList category) {
-  //   setState(() {
-  //     selectedCategory = category;
-  //   });
-  // }
-
   void navigateToProductDetailPage(BuildContext context, ProductList product) {
     context.pushNamed(
       AppRouteConstant.productDetailRouteName,
@@ -45,7 +37,7 @@ class _ProductGridViewState extends ConsumerState<ProductGridView> {
         screenSize.height - kToolbarHeight - kBottomNavigationBarHeight;
 
     return SizedBox(
-      height: availableHeight - 45,
+      height: availableHeight + 15,
       child: FutureBuilder<List<ProductList>>(
           future: ref.watch(
               allProductsProvider(ref.watch(homeProvider).filterModel).future),

@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "867349106505",
+    "firebase_url": "https://psoft-task-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "psoft-task",
+    "storage_bucket": "psoft-task.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867349106505:android:56ae5f8e1b8d7eb0cc9498",
+        "android_client_info": {
+          "package_name": "com.example.task"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867349106505-pvrcionpqer0c2i3suf75ngrsk6vf5cv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.task",
+            "certificate_hash": "fcc099d2a93f4dfdb3fc473291745c84a6617feb"
+          }
+        },
+        {
+          "client_id": "867349106505-uf1fc6a67seubltlu0bt7lj72ige6mlg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.task",
+            "certificate_hash": "06ab1181d7ff8239489830a675d870f42f00c101"
+          }
+        },
+        {
+          "client_id": "867349106505-o08fdf1jsolcci26ldesj3ifr59uv7bq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNBME6KsRTr8m7pKO4hclIbXEMXlXckRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "867349106505-o08fdf1jsolcci26ldesj3ifr59uv7bq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "867349106505-p8ikcskef3i3fmm0gjsld5q9dpm673lg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.task"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

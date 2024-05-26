@@ -63,6 +63,7 @@ class _FilterPageState extends ConsumerState<FilterPage> {
         ),
       ),
       body: Stack(
+        alignment: Alignment.bottomCenter,
         children: [
           SizedBox(
             height: screenHeight,

@@ -110,21 +110,12 @@ class _ProductGridViewState extends ConsumerState<ProductGridView> {
                     itemCount: productsList.length,
                     itemBuilder: (context, index) {
                       final product = productsList[index];
-
-                      // final averageRating =
-                      //     calculateAverageRating(product.productId ?? "", reviewList);
-                      // final reviewCount =
-                      //     getReviewCount(product.productId ?? "", reviewList);
                       return GestureDetector(
-                        // onTap: () {
-                        //   print("Product ID: ${product.productId}");
-                        // },
+                       
                         onTap: () => navigateToProductDetailPage(
                           context,
                           product,
-                          // product.productId ?? "",
-                          // calculateAverageRating(product.productId ?? "", reviewList),
-                          // getReviewCount(product.productId ?? "", reviewList),
+                         
                         ),
                         child: Column(
                           children: [
@@ -173,7 +164,7 @@ class _ProductGridViewState extends ConsumerState<ProductGridView> {
                                       Text(
                                         (product.averageRating ?? 0)
                                             .toStringAsFixed(2),
-                                        // averageRating.toStringAsFixed(1),
+                                        
                                         style: Theme.of(context)
                                             .textTheme
                                             .labelSmall,
@@ -183,7 +174,7 @@ class _ProductGridViewState extends ConsumerState<ProductGridView> {
                                       ),
                                       Text(
                                         '(${product.reviewCount} reviews)',
-                                        // '(${reviewCount} reviews)',
+                                        
                                         style: Theme.of(context)
                                             .textTheme
                                             .displaySmall,

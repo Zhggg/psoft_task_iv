@@ -37,7 +37,7 @@ class CartItem {
         productId: json['productId'] as String,
         name: json['name'] as String,
         price: json['price'] as num,
-        quantity: json['quantity'] as int,
+        quantity: json['quantity'] as num,
         brand: json['brand'] as String,
       );
 
